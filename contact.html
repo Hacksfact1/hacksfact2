@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+   <title>Hacks_fact</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  </head>
+  <style>
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+} 
+nav{
+  display: flex;
+  height: 80px;
+  width: 100%;
+  background: #1b1b1b;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 50px 0 100px;
+  flex-wrap: wrap;
+}
+nav .logo{
+  color: #fff;
+  font-size: 35px;
+  font-weight: 600;
+}
+nav ul{
+  display: flex;
+  flex-wrap: wrap;
+  list-style: none;
+}
+nav ul li{
+  margin: 0 5px;
+}
+nav ul li a{
+  color: #f2f2f2;
+  text-decoration: none;
+  font-size: 18px;
+  font-weight: 500;
+  padding: 8px 15px;
+  border-radius: 5px;
+  letter-spacing: 1px;
+  transition: all 0.3s ease;
+}
+nav ul li a.active,
+nav ul li a:hover{
+  color: #111;
+  background: #fff;
+}
+nav .menu-btn i{
+  color: #fff;
+  font-size: 22px;
+  cursor: pointer;
+  display: none;
+}
+input[type="checkbox"]{
+  display: none;
+}
+@media (max-width: 1000px){
+  nav{
+    padding: 0 40px 0 50px;
+  }
+}
+@media (max-width: 920px) {
+  nav .menu-btn i{
+    display: block;
+  }
+  #click:checked ~ .menu-btn i:before{
+    content: "\f00d";
+  }
+  nav ul{
+    position: fixed;
+    top: 80px;
+    left: -100%;
+    background: #111;
+    height: 100vh;
+    width: 100%;
+    text-align: center;
+    display: block;
+    transition: all 0.3s ease;
+  }
+  #click:checked ~ ul{
+    left: 0;
+  }
+  nav ul li{
+    width: 100%;
+    margin: 40px 0;
+  }
+  nav ul li a{
+    width: 100%;
+    margin-left: -100%;
+    display: block;
+    font-size: 20px;
+    transition: 0.6s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+  }
+  #click:checked ~ ul li a{
+    margin-left: 0px;
+  }
+  nav ul li a.active,
+  nav ul li a:hover{
+    background: none;
+    color: cyan;
+  }
+}
+.content{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  z-index: -1;
+  width: 100%;
+  padding: 0 30px;
+  color: #1b1b1b;
+}
+.content div{
+  font-size: 40px;
+  font-weight: 700;
+}
+.gfg { 
+
+        background-color: orange; 
+
+        border: 2px solid black; 
+
+        color: black; 
+
+        padding: 5px 10px; 
+
+        text-align: center; 
+
+        display: inline-block; 
+
+        font-size: 20px; 
+
+        margin: 10px 30px; 
+
+        cursor: pointer;
+        text-decoration: none; 
+
+        }
+  </style>
+  <body>
+    <nav>
+      <div class="logo">Hacks_Fact</div>
+      <input type="checkbox" id="click">
+      <label for="click" class="menu-btn">
+        <i class="fas fa-bars"></i>
+      </label>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a class="active" href="contact.html">contact us</a></li>
+        <li><a href="credits.html">credits</a></li>
+        <li><a href="Blog.html">Blog</a></li>
+        
+      </ul>
+    </nav>
+<center>are you waiting for links?</center>
+<p>here we got</p>
+_______________________________________________
+<a href="https://www.instagram.com/hacks_fact/">
+<img border="0" alt="instagram" src="https://cdn-icons-png.flaticon.com/512/174/174855.png" width="100" height="100">
+</a></img>
+this thing is very important <i>Instagram</i> link.if you want to know amazing facts then click on Instagram picture two three times it will throw you to my <i> Instagram</i> page
+_______________________________________________
+
+<a href="https://m.youtube.com/channel/UCiXjyHW890rVQ0H11azFRpw">
+<img border="0" alt="" src="https://image.flaticon.com/icons/png/512/124/124015.png" width="100" height="100">
+</a></img> if you get bored with facts then enjoy our whatsapp status,unboxing,etc.just tap on the youtube icon
+
+_______________________________________________
+
+<a href="https://in.pinterest.com/hacks_fact/?invite_code=ce8b5c74a2474fa899bc70f2becadc0e&sender=683702924588905716">
+<img border="0" alt="" src="https://image.flaticon.com/icons/png/512/220/220214.png" width="100" height="100">
+</a>if you want to pin me and other people then come to pinterest account,just click on Pinterest icon.
+
+_______________________________________________
+<a href="https://t.me/hacks_fact">
+<img border="0" alt="" src="https://image.flaticon.com/icons/png/512/2111/2111646.png" width="100" height="100">
+</a>if you want to enjoy our telegram channel then click on the telegram icon. please make sure that you have downloaded the telegram app.
+  </body>
+</html>
+
+
